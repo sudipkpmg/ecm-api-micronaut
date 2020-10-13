@@ -1,3 +1,6 @@
 micronaut:
   application:
     name: ecmApiMicronaut
+  server:
+    cors:
+      enabled: true

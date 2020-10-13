@@ -11,4 +11,9 @@ public class StatusController {
         return "ecm-api-micronaut is running";
     }
 
+    @Get("/ping")
+    public String ping() {
+        return "ALIVE !!!";
+    }
+
 }
