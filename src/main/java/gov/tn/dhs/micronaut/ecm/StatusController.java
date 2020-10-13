@@ -16,4 +16,9 @@ public class StatusController {
         return "ALIVE !!!";
     }
 
+    @Get("/")
+    public String root() {
+        return "ROOT !!!";
+    }
+
 }
